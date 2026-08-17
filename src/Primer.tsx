@@ -102,7 +102,7 @@ function Primer() {
         },3000)
     });
 
-    const apiKey = 'MbgG8rnxiVBuuiVtj3WJyeUQhDOxsz6J';
+    const apiKey = 'apiKey';
     const peticion = fetch('https://api.giphy.com/v1/gifs/trending?api_key=' + apiKey);
     peticion
         .then( resp => resp.json() )
